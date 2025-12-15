@@ -193,4 +193,4 @@ def get_price_history():
         raise HTTPException(status_code=500, detail=str(e))
 
 if __name__ == "__main__":
-    uvicorn.run("GRUServer:app", host="0.0.0.0", port=2413, reload=True)
+    uvicorn.run("GRUServer:app", host="0.0.0.0", port=8000, reload=True)
